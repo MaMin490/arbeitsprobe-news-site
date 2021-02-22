@@ -1,46 +1,24 @@
-# Getting Started with Create React App
+#Testaufgabe
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bitte versuche die folgende Aufgabe in etwa 3-4 Stunden zu lösen. Wichtig ist dabei nicht, dass die Lösung vollständig und perfekt lauffähig ist. Uns geht es viel mehr darum zu sehen, wie Du Probleme angehst und Code strukturierst. Wenn also bestimmte Features nicht gelöst werden können macht das nichts. Versuche einfach so viele der Punkte wie möglich zu erledigen. Die Zeit wird natürlich nicht gestoppt, die Angabe dient Dir lediglich als grober Hinweis, wie viel Zeit wir für die Lösung der Aufgabe schätzen würden.
+Das Ergebnis packst Du in eine ZIP Datei und schickst sie an mich per Email zurück. Ich gebe Dir dann so Bald wie möglich Feedback.
 
-## Available Scripts
+Die Testaufgabe:
 
-In the project directory, you can run:
+Erstelle das Frontend einer kleinen dynamischen News-Website. Die Website soll aus den folgenden Unterseiten bestehen:
 
-### `yarn start`
+News Übersicht: Die Seite zeigt eine kleine Tabelle aller verfügbaren News-Meldungen. Die Einträge müssen per AJAX aus einer JSON Datei geladen werden und sich dynamisch blättern lassen. Für die Aufgabe sollen beliebige fiktive Meldungen in ausreichender Menge fest in die JSON Datei geschrieben werden. Später würden die Daten natürlich aus einem CMS oder einer Datenbank kommen, für die Aufgabe reicht aber eine statische Datei.
+Für ein blättern darf also kein voller Page-Reload nötig sein.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+News Details: Klickt ein Besucher in der Übersicht auf eine News-Meldung, gelangt er auf die Detailansicht. Hier wird die ausgewählte Meldung nochmal vollständig und alleine dargestellt. Die Detailansicht soll dabei auch eine dynamische Seite sein und keine statische HTML Seite, idealerweise Teil der gleichen Anwendung wie auch die Übersicht.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Design und Layout der Website ist nicht wichtig, es sollte lediglich ein Responsive Layout verwendet werden und beispielhaft einige Effekte zeigen, durch die sich dynamische Frontends von klassischen statischen Websites abheben können. Das Layout sollte sich in Abhängigkeit der Browser-Größe anpassen und jeweils auf dem PC, dem Tablet und dem Smartphone unterschiedlich aussehen. Falls Du ein Beispiel-Design benötigst, kannst Du gerne die aktuelle www.gq-magazin.de Website als grobe Anmutung nutzen.
 
-### `yarn test`
+Navigation: Auf jeder Seite soll über dem eigentlichen Inhalt eine Navigation mit 2-Ebenen erscheinen. Die zweite Ebene soll sich dabei auf Klick jeweils auf- und zuklappen.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Die folgenden Technologien und Standards sollten Sie dabei berücksichtigen:
 
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- JavaScript Frameworks, entweder Vue.js oder React
+- AJAX + JSON ( Die Meldungen stehen in einer statischen Datei im JSON Format )
+- CSS3 / Responsive Design
+- HTML5 und semantische Tags
