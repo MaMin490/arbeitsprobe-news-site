@@ -1,6 +1,6 @@
 #Testaufgabe
 
-Bitte versuche die folgende Aufgabe in etwa 3-4 Stunden zu lösen. Wichtig ist dabei nicht, dass die Lösung vollständig und perfekt lauffähig ist. Uns geht es viel mehr darum zu sehen, wie Du Probleme angehst und Code strukturierst. Wenn also bestimmte Features nicht gelöst werden können macht das nichts. Versuche einfach so viele der Punkte wie möglich zu erledigen. Die Zeit wird natürlich nicht gestoppt, die Angabe dient Dir lediglich als grober Hinweis, wie viel Zeit wir für die Lösung der Aufgabe schätzen würden.
+Bitte versuche die folgende Aufgabe in etwa 4-5 Stunden zu lösen. Wichtig ist dabei nicht, dass die Lösung vollständig und perfekt lauffähig ist. Uns geht es viel mehr darum zu sehen, wie Du Probleme angehst und Code strukturierst. Wenn also bestimmte Features nicht gelöst werden können macht das nichts. Versuche einfach so viele der Punkte wie möglich zu erledigen. Die Zeit wird natürlich nicht gestoppt, die Angabe dient Dir lediglich als grober Hinweis, wie viel Zeit wir für die Lösung der Aufgabe schätzen würden.
 Das Ergebnis packst Du in eine ZIP Datei und schickst sie an mich per Email zurück. Ich gebe Dir dann so Bald wie möglich Feedback.
 
 Die Testaufgabe:
